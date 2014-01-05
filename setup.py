@@ -3,7 +3,16 @@ from sys import version_info
 
 VERSION = "0.0.2"
 
-pyver_requires = []
+pyver_requires = ['Flask==0.10.1',
+                  'Flask-WTF==0.8.4',
+                  'Jinja2==2.7',
+                  'MarkupSafe==0.18',
+                  'WTForms==1.0.4',
+                  'itsdangerous==0.22',
+                  'pypuppetdb==0.0.5',
+                  'requests==1.2.3'
+]
+
 with open('requirements.txt') as file:
     for line in file.readlines():
         pyver_requires.append(line.strip())
