@@ -29,6 +29,6 @@ setup(
     description='Web frontend for PuppetDB',
     long_description=long_description,
     install_requires=pyver_requires,
-    keywords="puppet puppetdb",
+    keywords="puppet puppetdb puppetboard",
     classifiers=classifiers
 )
